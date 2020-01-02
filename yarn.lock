@@ -5433,6 +5433,11 @@ istanbul-reports@^2.2.6:
   dependencies:
     handlebars "^4.1.2"
 
+javascript@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/javascript/-/javascript-1.0.0.tgz#186c6d8d73fe9dae5cded839de8e60ec7826ec86"
+  integrity sha512-PnTGALRCw+1vqPQj5iE1xxZnEOPraSjIZ9LEZGjqP9I9iyjgRAXN7FYLDgPqZi7PhZxb3oLyYTJBttQpGCrMtg==
+
 jest-changed-files@^24.9.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/jest-changed-files/-/jest-changed-files-24.9.0.tgz#08d8c15eb79a7fa3fc98269bc14b451ee82f8039"
@@ -8997,6 +9002,11 @@ serialize-javascript@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-2.1.0.tgz#9310276819efd0eb128258bb341957f6eb2fc570"
   integrity sha512-a/mxFfU00QT88umAJQsNWOnUKckhNCqOl028N48e7wFmo2/EHpTo9Wso+iJJCMrQnmFvcjto5RJdAHEvVhcyUQ==
+
+serialized@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/serialized/-/serialized-1.0.0.tgz#d6cd9ce8c07e2f474f3492c5b7325e59f8afe665"
+  integrity sha1-1s2c6MB+L0dPNJLFtzJeWfiv5mU=
 
 serve-index@^1.9.1:
   version "1.9.1"
