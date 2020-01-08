@@ -1,15 +1,16 @@
 import React from 'react';
 
+import InfoBox from '../../components/info-box/info-box.component';
+import HowItWorks from '../../components/how-it-works/how-it-works.component';
+
 const HomePage = () => (
     <div className='homepage'>
         <div className='directory-menu'>
             <div className='menu-item'>
                 
-                <div className='content'>
-                    <h1 className='title'>Who we are</h1>
-                    <span className='info'>this is our story... </span>
-                    <span className='button'>LEARN MORE</span>
-                </div>
+                <InfoBox />
+
+                <HowItWorks />
 
                 <div className='content'>
                     <h1 className='title'>How it works</h1>
