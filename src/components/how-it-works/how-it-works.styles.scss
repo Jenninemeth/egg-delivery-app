@@ -1,0 +1,29 @@
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+    .title{
+        font-size: 30px;
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center;
+    }
+    
+    .action-steps {
+        display: flex;
+        justify-content: center;
+    
+        img {
+            background-color: red;
+        }
+        .steps{
+            padding: 5%;
+        }
+    }
+
+    .custom-button {
+        width: 300px;
+    }
+}
+

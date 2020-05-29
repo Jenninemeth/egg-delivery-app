@@ -1,6 +1,7 @@
 import React from 'react';
 
-import InfoBox from '../../components/info-box/info-box.component';
+import Directory from '../../components/directory/directory.component';
+import InfoBox from '../../components/landing-section/info-box.component';
 import HowItWorks from '../../components/how-it-works/how-it-works.component';
 
 const HomePage = () => (
@@ -8,16 +9,8 @@ const HomePage = () => (
         <div className='directory-menu'>
             <div className='menu-item'>
                 
-                <InfoBox />
-
-                <HowItWorks />
-
-                <div className='content'>
-                    <h1 className='title'>How it works</h1>
-                    <span className='info'>box box box</span>
-                    <span className='button'>GET STARTED</span>
-                </div>
-
+                <Directory />
+    
                 <div className='content'>
                     <h1 className='title'>Check if we deliver to your zip code</h1>
                     <span className='zip'>Empty box</span>
